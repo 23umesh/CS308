@@ -18,7 +18,11 @@ int main(int argc, char* argv[]) {
 		input = abs(input);
 		//printf("Invalid Number!\n");
 		printf("Sqrt of -%d is %.2fi\n",input,sqrt(input));
+
 		//printf("End of program. Exiting\n");
+
+		printf("End of program is near. Exiting\n");
+
 		return (0);
 	}
 	printf("Sqrt of %d is %.2f\n",input,sqrt(input));
