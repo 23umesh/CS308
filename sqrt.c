@@ -9,7 +9,7 @@ positive number. */
 int main(int argc, char* argv[]) {
 	
 	if (argc != 2) {
-		printf("NEGSUPPORT:Usage: sqrt input\n\n");
+		printf("DEBUG:Usage: sqrt input\n\n");
 		exit(-1);
 	}
 
@@ -17,12 +17,12 @@ int main(int argc, char* argv[]) {
 	if(input<0){
 		input = abs(input);
 		//printf("Invalid Number!\n");
-		printf("NEGSUPPORT:Sqrt of -%d is %.2fi\n",input,sqrt(input));
-		printf("NEGSUPPORT:End of program is near. Exiting\n");
+		printf("DEBUG:Sqrt of -%d is %.2fi\n",input,sqrt(input));
+		printf("DEBUG:End of program is near. Exiting\n");
 		return (0);
 	}
-	printf("NEGSUPPORT:Sqrt of %d is %.2f\n",input,sqrt(input));
-	printf("NEGSUPPORT:End of program. Exiting\n");
+	printf("DEBUG:Sqrt of %d is %.2f\n",input,sqrt(input));
+	printf("DEBUG:End of program. Exiting\n");
 	return(0);
 
 } // end main
