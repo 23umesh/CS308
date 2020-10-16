@@ -15,7 +15,9 @@ int main(int argc, char* argv[]) {
 
 	int input = atoi(argv[1]);
 	if(input<0){
-		printf("Invalid Number!\n");
+		input = abs(input);
+		//printf("Invalid Number!\n");
+		printf("Sqrt of -%d is %.2fi\n",input,sqrt(input));
 		printf("End of program. Exiting\n");
 		return (0);
 	}
